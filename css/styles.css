@@ -1,5 +1,10 @@
+.container-fluid {
+  padding: 0;
+}
+
 #banner {
   height: 400px;
+  witdh:100%;
   background: url(../img/milkbg.jpg) no-repeat center #00f;
   background-size: cover;
   position: relative;
@@ -24,4 +29,13 @@
 
 #about-us {
   background-color: #ddd;
+}
+
+@media (min-width: 1200px){
+    .leftAlign {
+      text-align: left;
+    }
+    .rightAlign {
+      text-align: right;
+    }
 }
